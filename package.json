@@ -1,0 +1,14 @@
+{
+  "name": "api-mysql-project",
+  "version": "1.0.0",
+  "description": "API Node.js + Express conectada a MySQL via Docker Compose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0",
+    "dotenv": "^16.4.5"
+  }
+}
